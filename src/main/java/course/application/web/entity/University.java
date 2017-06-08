@@ -13,9 +13,6 @@ import javax.persistence.Table;
 @Table(name="UNIVERSITY")
 public class University implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	@Column(name="COUNTRY")
